@@ -1,0 +1,15 @@
+/*Поиск*/
+:root {
+--search-background-color: #FFFFFF; /*Оснвной фон, за всем*/
+--search-background-image: url("") /*Оснвной фон, за всем, для избражения*/
+--search-background-block-color: #FFFFFF; /*Сам болок поиска(со значком поиска)*/
+--search-text-about-color: #FFFFFF; /*Цвет текста в поиске (тренинги и уроки) только этих 2 слов*/
+--search-text-color: #000000; /*Цвет текста в поиске названия (тренинги и уроки)*/
+--search-text-mini-color: #000000; /*Цвет текста в поиске описание (тренинги и уроки)*/
+--search-button-background: #000000; /*Цвет кнопки перейти*/  
+--search-button-color: #FFFFFF; /*Цвет текста кнопки перейти*/  
+}
+/*Левое меню*/
+:root {
+
+}
