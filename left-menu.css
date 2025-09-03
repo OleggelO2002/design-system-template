@@ -1,5 +1,28 @@
+:root {
+--left-menu-background-color: #FFFFFF; /*Основной фон, за всем 496 строка*/
+--left-menu-text-color: #333333; /*Цвет текста пунктов меню 504 строка*/
+--left-menu-background-active-color: #CCCCCC; /*Фон под пунктом в котором находимся 1 строка*/
+--left-menu-background-selected-color: #CCCCCC; /*Фон под пунктом на который нажали 5 строка*/
+--left-menu-background-hover-color: #9F9F9F; /*Основной фон, за всем при наведении 493 строка*/
+--left-menu-background-under-hover-color: #FFFFFF; /*Подпункты при наведении 585 строка*/
+--left-menu-count-color: #FFFFFF; /*Цвет текста цифр меню 257 строка*/
+--left-menu-background-count-color: #FFFFFF; /*Цвет фона цифр меню 14 строка*/
+}
+
+
+
+
+.gc-account-leftbar .gc-account-user-menu li.active a {
+background: var(--left-menu-background-active-color) !important;
+}
+
+/*Тот на который нажали*/
+.gc-account-leftbar .gc-account-user-menu li.selected a {
+background: var(--left-menu-background-selected-color) !important;
+}
+
   .gc-account-leftbar .notify-count {
-background: #D5BAAF !important;    
+background: var(--left-menu-background-count-color) !important; 
 }
 
 .gc-account-user-submenu-bar {
