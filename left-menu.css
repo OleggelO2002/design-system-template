@@ -250,7 +250,7 @@ height: 66px !important;
 .gc-account-user-menu .menu-item {
     width: 240px;
     height: 66px;
-    background: #FFFFFF;
+    background: transparent !important;
     box-shadow: 0px 0px 98px rgba(0, 0, 0, 0.07);
     border-radius: 10px;
     margin: 10px auto;
@@ -279,7 +279,7 @@ height: 66px !important;
 /* === УВЕДОМЛЕНИЯ === */
 .gc-account-user-menu .menu-item .notify-count {
     background-color: #ff3b30;
-    color: white;
+    color: var(--left-menu-count-color) !important;
     font-size: 12px;
     font-weight: bold;
     min-width: 20px;
@@ -514,11 +514,11 @@ border-radius: 1000px;
 /*______________________________________*/
 /*основа меню*/
 .gc-account-leftbar .gc-account-user-menu li a:hover{
- background: #D3D3D3;
+ background: var(--left-menu-background-hover-color) !important;
 }
 .gc-account-leftbar .gc-account-user-menu li a{
   width: 240px;
-  background: #FFFFFF;
+  background: var(--left-menu-background-color) !important;
   border-radius: 10px;
   height: 66px;
   display: flex !important;
@@ -528,7 +528,7 @@ border-radius: 1000px;
     content: attr(title); /* Берем текст из атрибута title */
     margin-left: 8px; /* Отступ от иконки */
     font-size: 14px; /* Размер текста */
-    color: #333; /* Цвет текста */
+    color: var(--left-menu-text-color) !important; /* Цвет текста */
     vertical-align: middle !important; /* Вертикальное выравнивание */
     font-family: 'Manrope', sans-serif; /* Применяем шрифт Manrope */
     font-weight: 700; /* Жирный стиль */ 
@@ -606,7 +606,7 @@ display: block !important;
     border-radius: 5px;
 }
 .custom-submenu li:hover {
-    background: #D3D3D3 !important;
+    background: var(--left-menu-background-under-hover-color) !important;
 }
 .custom-submenu a {
     font-size: 12px; /* Уменьшаем размер текста */
