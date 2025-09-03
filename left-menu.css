@@ -3,7 +3,7 @@
 --left-menu-text-color: #333333; /*Цвет текста пунктов меню 504 строка*/
 --left-menu-background-active-color: #CCCCCC; /*Фон под пунктом в котором находимся 1 строка*/
 --left-menu-background-selected-color: #CCCCCC; /*Фон под пунктом на который нажали 5 строка*/
---left-menu-background-hover-color: #9F9F9F; /*Основной фон, за всем при наведении 493 строка*/
+--left-menu-background-hover-color: #CCCCCC; /*Основной фон, за всем при наведении 493 строка*/
 --left-menu-background-under-hover-color: #FFFFFF; /*Подпункты при наведении 585 строка*/
 --left-menu-count-color: #FFFFFF; /*Цвет текста цифр меню 257 строка*/
 --left-menu-background-count-color: #D5BAAF; /*Цвет фона цифр меню 14 строка*/
