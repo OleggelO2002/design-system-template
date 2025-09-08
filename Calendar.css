@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 
 :root {
-  --bg-calendar-main: #060225;
-  --bg-calendar-: #060225;
-  --bg-calendar-: #2A2544;
-  --bg-calendar-: #FFFFFF;
-  --bg-calendar-: #2A2544;
-  --bg-calendar-: #FFFFFF;
-  --bg-calendar-: ;
+  --bg-calendar-main: /*ТУТ ФОН ПОСЛЕДНЕГО УРОКА*/;
+  --bg-calendar-: /*ТУТ ФОН ПОСЛЕДНЕГО УРОКА*/;
+  --bg-calendar-: /*ТУТ ФОН ПОСЛЕДНЕГО УРОКА*/;
+  --bg-calendar-: /*ТУТ ФОН ПОСЛЕДНЕГО УРОКА*/;
+  --bg-calendar-: /*ТУТ ФОН ПОСЛЕДНЕГО УРОКА*/;
+  --bg-calendar-: /*ТУТ ФОН ПОСЛЕДНЕГО УРОКА*/;
+  --bg-calendar-: /*ТУТ ФОН ПОСЛЕДНЕГО УРОКА*/ ;
 }
 
 .calendar-choice-overlay {
