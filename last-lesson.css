@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+:root {
+  --bg-last-lesson-main: /*ТУТ ФОН ПОСЛЕДНЕГО УРОКА*/;
+  --color-last-lesson-titel: /*ТУТ ЦВЕТ ЗАГОЛОВКА "вы остановились на уроке:" ПОСЛЕДНЕГО УРОКА*/;
+  --color-last-lesson-name: /*ТУТ ЦВЕТ ГЛАВНОГО ТЕКСТА "НАЗВАНИЕ УРОКА" ПОСЛЕДНЕГО УРОКА*/;
+  --bg-last-lesson-button: /*ТУТ ФОН КНОПКИ ПОСЛЕДНЕГО УРОКА*/;
+  --bg-last-lesson-button-hover: /*ТУТ ФОН КНОПКИ ПОСЛЕДНЕГО УРОКА ПРИ НАВЕДЕНИИ*/;
+  --color-last-lesson-button: /*ТУТ ЦВЕТ ТЕКСТА КНОПКИ "перейти" ПОСЛЕДНЕГО УРОКА*/;
+  --text-white: #FFFFFF;
+  --menu-active-gradient: linear-gradient(107.81deg, #2F216C -29.24%, #5F3ECF 25.35%, #5F3ECF 52.98%, #2F216C 107.57%);
+}
+
+.col-md-4{
+padding-left: 0px !important;
+}
+
+.lastLessonBlock {
+border-radius: 15px !important;
+padding-top: 10px !important;    
+background: var(--bg-last-lesson-main);
+}
+.lastLessonBlock .lesson-title {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 15px;
+color: var(--color-last-lesson-titel);
+/* identical to box height, or 115% */    
+}
+
+.lastLessonBlock .lesson-name {
+margin-top: 10px;
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 450;
+font-size: 24px;
+line-height: 24px;
+color: var(--color-last-lesson-name);
+margin-bottom: 20px;
+}
+
+.lastLessonBlock .lesson-btn {
+padding: 10px 20px 10px 20px;
+background: var(--bg-last-lesson-button);
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 15px;
+border-radius: 5px;
+color: --color-last-lesson-button;
+transition: background 0.2s ease !important;
+}
+
+.lastLessonBlock .lesson-btn:hover{
+background:  var(--bg-last-lesson-button-hover);
+text-decoration: none;
+}
