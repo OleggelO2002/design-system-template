@@ -7,8 +7,6 @@
   --bg-last-lesson-button: /*ТУТ ФОН КНОПКИ ПОСЛЕДНЕГО УРОКА*/;
   --bg-last-lesson-button-hover: /*ТУТ ФОН КНОПКИ ПОСЛЕДНЕГО УРОКА ПРИ НАВЕДЕНИИ*/;
   --color-last-lesson-button: /*ТУТ ЦВЕТ ТЕКСТА КНОПКИ "перейти" ПОСЛЕДНЕГО УРОКА*/;
-  --text-white: #FFFFFF;
-  --menu-active-gradient: linear-gradient(107.81deg, #2F216C -29.24%, #5F3ECF 25.35%, #5F3ECF 52.98%, #2F216C 107.57%);
 }
 
 .col-md-4{
