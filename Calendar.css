@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+:root {
+  --bg-calendar-main: #060225;
+  --bg-calendar-: #060225;
+  --bg-calendar-: #2A2544;
+  --bg-calendar-: #FFFFFF;
+  --bg-calendar-: #2A2544;
+  --bg-calendar-: #FFFFFF;
+  --bg-calendar-: ;
+}
+
+.calendar-choice-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999999;
+}
+
+.calendar-choice-popup {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+.calendar-choice-title {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.calendar-choice-btn {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+}
+
+.google-btn {
+  background-color: #4285F4;
+}
+
+.apple-btn {
+  background-color: #000000;
+}
+
+.calendar-choice-close {
+ background: #555 !important;
+  width: 60%;
+  padding: 5px 0;
+  margin-top: 25px !important;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+}
+
+
+
+.xdget-row .xdget-container:not(.editable).empty{
+display: block !important;
+}
+.calendar-btn {
+margin-bottom: 30px;    
+}
+
+.xdget-lessonSchedule h3::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  width: 20px;
+  height: 12px;
+  background-image: url('https://static.tildacdn.info/tild3965-6339-4639-b865-336533623038/Vector_44.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: translateY(-50%) rotate(0deg);
+  transition: transform 0.3s ease;
+}
+.xdget-lessonSchedule h3.open::after {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.header-trainigs img {
+display: none;    
+}
+
+.xdget-lessonSchedule .closed{
+border-radius: 15px 15px 15px 15px !important;
+}
+
+.xdget-lessonSchedule .open{
+border-radius: 15px 15px 0 0 !important;    
+}
+
+.schedule-block .day-label {
+color: #b884f9;    
+}
+
+.schedule-block .time {
+color: #a88dc9;     
+}
+
+.xdget-lessonSchedule h3 {
+font-family: 'Futura PT', sans-serif;
+font-style: normal;
+font-weight: 500;
+color: #ffffff;
+padding: 30px 0px 30px 15px;
+box-shadow: 0px -6px 21.4px rgba(0, 0, 0, 0.05);
+position: relative;
+padding-right: 14px; /* место под стрелку */
+cursor: pointer;
+background: 
+linear-gradient(var(--card-bg), var(--card-bg)) padding-box;
+border-width: 1px 1px 0px 1px;
+border-style: solid;
+border-color: #FFFFFF;
+}
+
+.schedule-block { 
+    position: relative; 
+    top: -10px; 
+    border-radius: 0px 0px 15px 15px; 
+    transition: all 0.5s; 
+    background: linear-gradient(var(--card-bg), var(--card-bg)) padding-box, linear-gradient(180deg, #ffffff 0%, #2A2544 100%); 
+    border: 1px solid transparent !important;
+    border-width: 0px 1px 0px 1px !important;
+}
+
+
+
+.bg-block {
+padding-top: 0;
+padding-bottom: 0;
+}    
+.calendar-btn {
+background: linear-gradient(107.81deg, #2F216C -29.24%, #5F3ECF 25.35%, #5F3ECF 52.98%, #2F216C 107.57%) !important; 
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+text-align: center;
+color: #FFFFFF;
+padding: 10px 20px !important;
+transition: transform 0.4s ease;
+}
+.calendar-btn:hover {
+transform: translateY(-5px);
+}
+.schedule-block .day-label {
+margin-left: 18px;    
+}
+
+
+
+.schedule-block .event a {
+color: #ffffff;
+font-size: 16px;
+}
+
+.schedule-block .event {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 550;
+font-size: 13px;
+color: #d3d2d2;    
+}
